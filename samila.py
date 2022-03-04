@@ -5,3 +5,14 @@ Created on Fri Mar  4 20:31:03 2022
 @author: VAGUE
 """
 
+# source - https://github.com/sepandhaghighi/samila
+
+import random
+import math
+import matplotlib.pyplot as plt
+from samila import GenerativeImage, Projection
+
+g = GenerativeImage()
+g.generate(seed = 69)
+print(g.seed)
+g.plot(color = "red", bgcolor = "black")
