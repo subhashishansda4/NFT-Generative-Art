@@ -17,7 +17,7 @@ def f1(x, y):
     return -n
 
 def f2(x, y):
-    n = random.uniform(0,1) * y**4 - math.cos(x**2) + 2*x
+    n = random.uniform(0,1) * y**2 - math.cos(x**2) + 2*x
     return n
 
 DEFAULT_SEED = 1018273
